@@ -1,0 +1,83 @@
+.
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── Footer.tsx
+│   ├── HeroPlaceholder.tsx
+│   ├── Hero.tsx
+│   └── Navigation.tsx
+├── directory
+├── next.config.js
+├── next-env.d.ts
+├── node_modules
+│   ├── @alloc
+│   ├── autoprefixer
+│   ├── braces
+│   ├── browserslist
+│   ├── busboy
+│   ├── caniuse-lite
+│   ├── client-only
+│   ├── csstype
+│   ├── detect-libc
+│   ├── electron-to-chromium
+│   ├── @emotion
+│   ├── enhanced-resolve
+│   ├── escalade
+│   ├── fill-range
+│   ├── fraction.js
+│   ├── framer-motion
+│   ├── graceful-fs
+│   ├── is-extglob
+│   ├── is-glob
+│   ├── is-number
+│   ├── jiti
+│   ├── js-tokens
+│   ├── lightningcss
+│   ├── lightningcss-linux-x64-gnu
+│   ├── lightningcss-linux-x64-musl
+│   ├── loose-envify
+│   ├── micromatch
+│   ├── mri
+│   ├── nanoid
+│   ├── @next
+│   ├── next
+│   ├── node-addon-api
+│   ├── node-releases
+│   ├── normalize-range
+│   ├── @parcel
+│   ├── picocolors
+│   ├── picomatch
+│   ├── postcss
+│   ├── postcss-value-parser
+│   ├── react
+│   ├── react-dom
+│   ├── scheduler
+│   ├── source-map-js
+│   ├── streamsearch
+│   ├── styled-jsx
+│   ├── @swc
+│   ├── @tailwindcss
+│   ├── tailwindcss
+│   ├── tapable
+│   ├── to-regex-range
+│   ├── tslib
+│   ├── @types
+│   ├── typescript
+│   ├── undici-types
+│   └── update-browserslist-db
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public
+│   ├── bg.png
+│   ├── home.mp4
+│   └── SYNTX_VOICEOVER_V1.mp3
+├── styles
+│   └── globals.css
+├── syntx_final_build_fixed.zip
+├── tailwind.config.js
+└── tsconfig.json
+
+60 directories, 20 files
