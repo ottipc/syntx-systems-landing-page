@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import {CyberCard} from "./CyberCard";
 
 export default function Hero() {
   return (
@@ -75,12 +76,23 @@ export default function Hero() {
       {/*  ))}*/}
       {/*</motion.div>*/}
 
+
+
+        {/* CyberCards */}
+        <div className="row-start-3 w-1/2">
+            <div className="mx-auto max-w-7xl px-6 flex flex-wrap justify-between items-start">
+                <CyberCard title="AI Analysis" />
+                <CyberCard title="Machine Learning" />
+                <CyberCard title="System Mapping" />
+            </div>
+        </div>
+
       {/* VIDEO */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 0.9, scale: 1 }}
         transition={{ delay: 1.0, duration: 1.2 }}
-        className="row-start-4 w-[30vw] aspect-video rounded-xl overflow-hidden shadow-[0_0_100px_rgba(0,255,255,0.15)]"
+        className="row-start-4 w-[21vw] aspect-video rounded-xl overflow-hidden shadow-[0_0_100px_rgba(0,255,255,0.15)]"
       >
         <div className="absolute inset-0 pointer-events-none z-10">
           <div className="w-full h-full bg-[radial-gradient(circle_at_center,_rgba(255,255,255,0.2)_0%,_transparent_60%)] mix-blend-screen"></div>

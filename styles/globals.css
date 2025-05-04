@@ -3,43 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-black text-white;
-  font-family: 'Geist', sans-serif;
-}
-
-
-@layer utilities {
-  @keyframes pulse-glow {
-    0%, 100% {
-      text-shadow: 0 0 10px #00ffff;
-    }
-    50% {
-      text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
-    }
-  }
-
-  .animate-text-glow {
-    animation: pulse-glow 2.5s ease-in-out infinite;
-  }
-}
-
-
-@layer utilities {
-  @keyframes gradient-slide {
-    0%, 100% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-  }
-
-  .gradient-text {
-    background: linear-gradient(90deg, #7DFF4B, #FF00C7, #00ffff);
-    background-size: 200% 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    animation: gradient-slide 6s ease infinite;
-  }
+  @apply bg-black text-white antialiased;
+  font-family: 'Inter', sans-serif;
 }
