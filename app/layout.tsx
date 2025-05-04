@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* FIXED LOGO OBEN RECHTS */}
         <div className="fixed top-4 right-4 z-50 w-[60px] h-[60px]">
           <img
-            src="/logo.png"
+            src="/Logo_trans.png"
             alt="SYNTX Logo"
             className="w-full h-full object-contain drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
           />

@@ -11,10 +11,10 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.2, duration: 0.8 }}
-        className="row-start-1 w-[140px]"
+        className="row-start-1 w-[300px]"
       >
         <img
-          src="/bg_new.png"
+          src="/Logo_trans.png"
           alt="SYNTX Logo"
           className="w-[200px] h-[200px] drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]"
         />
