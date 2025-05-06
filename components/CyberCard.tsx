@@ -1,9 +1,9 @@
 "use client"
 
 const imageMap: { [key: string]: string } = {
-  "AI Analysis": "/maschine1.jpg",
+  "AI Analysis": "/analyze1.jpg",
   "Machine Learning": "/maschine2.jpg",
-  "System Mapping": "/maschine3.jpg",
+  "System Mapping": "/mapping3.jpg",
 }
 
 export const CyberCard = ({ title }: { title: string }) => {
