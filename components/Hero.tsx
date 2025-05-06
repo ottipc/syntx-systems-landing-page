@@ -50,16 +50,33 @@ export default function Hero() {
         </motion.h2>
       </div>
 
-      {/* CyberCards */}
-      <div className="row-start-3 w-1/2">
-        <div className="mx-auto max-w-7xl px-6 flex flex-wrap justify-between items-start">
-          <CyberCard title="AI Analysis" />
-          <CyberCard title="Machine Learning" />
-          <CyberCard title="System Mapping" />
+        {/* CyberCards */}
+        <div className="flex justify-center w-full">
+            <div className="flex">
+                <div className="w-[360px] mx-[100px]">
+                    <CyberCard
+                        title="AI ANALYSIS"
+                        subtitle="Structural Intelligence Module – Rooted in AI Analysis"
+                    />
+                </div>
+                <div className="w-[360px] mx-[100px]">
+                    <CyberCard
+                        title="MACHINE LEARNING"
+                        subtitle="Predictive Systems – Engineered to Self-Adapt"
+                    />
+                </div>
+                <div className="w-[360px] mx-[100px]">
+                    <CyberCard
+                        title="SYSTEM MAPPING"
+                        subtitle="Architecture of Complexity – Visualized & Traceable"
+                    />
+                </div>
+            </div>
         </div>
-      </div>
 
-      {/* VIDEO */}
+
+
+        {/* VIDEO */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 0.9, scale: 1 }}
